@@ -1,0 +1,22 @@
+#DNADesign\Elemental\Models\BaseElement:
+#  # use included holder template ElementHolderStyled.ss
+#  controller_template: 'ElementHolderStyled'
+#  # StyledTitle config
+#  title_tag_default: 'h2'
+#  title_tag_variants:
+#    '': 'default'
+#    h2 : 'H2'
+#    h3 : 'H3'
+#    h4 : 'H4'
+#  title_alignment_variants:
+#    text-left: 'left'
+#    text-center: 'centered'
+#    text-right: 'right'
+#  # StylingMarginBottom config
+#  margin_bottom_variants:
+#    mb-0: '0 (none)'
+#    mb-1: 'XS'
+#    mb-2: 'Small'
+#    mb-3: 'Medium'
+#    mb-4: 'Large'
+#    mb-5: 'XL'

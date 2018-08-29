@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Frontend-EditLink
+   ========================================================================== */
+
+/* CMS edit links get set per javascript */
+.can-cms-edit > a.cms-edit-link {
+      display: none;
+      position: absolute;
+      z-index: 90;
+      top: 0;
+      right: 0;
+      width: 24px;
+      height: 24px;
+      background: #9ecaed no-repeat 50% 50% url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKtJREFUeNpi/P//PwMlgIkEtUpAXA7EgiiiIBcQgZWA+N1/CLgLxIIwOWIN2P0fFcANIcZmkOJQKI0MVhEyAOZsGEY3pByfATDNd5E0IRvSgS8MsGn+j2SIMbJ6JixRdQaI3yPxkcEsID6LKxrx2fwf2dnIGFc8E6UZ2YB30LheRYpmZANgCpXQDOkglMiQDYBpSCNWMzYD/pOiGYRZoJHhihZde4jNogABBgBTKIrCa69NCwAAAABJRU5ErkJggg==');
+}
+.can-cms-edit:hover {
+     position: relative;
+     outline: #9ecaed 1px solid;
+}
+.can-cms-edit:hover > a.cms-edit-link {
+      display: block !important;
+}

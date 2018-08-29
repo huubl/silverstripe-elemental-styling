@@ -1,0 +1,21 @@
+en:
+#  Derralf\Elements\Extension\BaseElementExtension:
+#    MarginBottomLabel: 'Margin Bottom'
+#    MarginBottomEmptyString: 'Select Margin Bottom...'
+#    MarginBottomDescription: 'overrides the lower outer distance defined by default in the template'
+
+  Derralf\ElementalStyling\StylingMarginBottom:
+    MarginBottomLabel: 'Margin Bottom'
+    MarginBottomEmptyString: 'Select Margin Bottom...'
+    MarginBottomDescription: 'overrides the lower outer distance defined by default in the template'
+
+
+  Derralf\ElementalStyling\StylingMarginBottom:
+    TitleTagLabel: 'Title Tag'
+    TitleTagEmptyString: 'default'
+    TitleTagDescription: 'default: %s'
+    TitleAlignmentLabel: 'Horizontal Alignment'
+    TitleAlignmentEmptyString: 'default'
+
+  Derralf\ElementalStyling\StylingCutomInlineStyles:
+    CustomInlineStylesLabel: 'Custom Inline Styles'

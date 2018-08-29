@@ -1,0 +1,20 @@
+de:
+#  Derralf\Elements\Extension\BaseElementExtension:
+#    MarginBottomLabel: 'Abstand unten'
+#    MarginBottomEmptyString: 'Abstand unten wählen...'
+#    MarginBottomDescription: 'überschreibt den im Template standardmäßig festgelegten unteren Außenabstand'
+
+  Derralf\ElementalStyling\StylingMarginBottom:
+    MarginBottomLabel: 'Abstand unten'
+    MarginBottomEmptyString: 'Abstand unten wählen...'
+    MarginBottomDescription: 'überschreibt den im Template standardmäßig festgelegten unteren Außenabstand'
+
+  Derralf\ElementalStyling\StylingMarginBottom:
+    TitleTagLabel: 'TitleTag'
+    TitleTagEmptyString: 'standard'
+    TitleTagDescription: 'standard: %s'
+    TitleAlignmentLabel: 'TitleAlignment'
+    TitleAlignmentEmptyString: 'standard'
+
+  Derralf\ElementalStyling\StylingCutomInlineStyles:
+    CustomInlineStylesLabel: 'Benutzerdefinierte Inline-CSS'
