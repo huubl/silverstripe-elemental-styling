@@ -20,3 +20,10 @@
 #    mb-3: 'Medium'
 #    mb-4: 'Large'
 #    mb-5: 'XL'
+#  margin_top_variants:
+#    mt-0: '0 (none)'
+#    mt-1: 'XS'
+#    mt-2: 'Small'
+#    mt-3: 'Medium'
+#    mt-4: 'Large'
+#    mt-5: 'XL'
