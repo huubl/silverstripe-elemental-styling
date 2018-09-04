@@ -9,6 +9,10 @@ en:
     MarginBottomEmptyString: 'Select Margin Bottom...'
     MarginBottomDescription: 'overrides the lower outer distance defined by default in the template'
 
+  Derralf\ElementalStyling\StylingMarginTop:
+    MarginTopLabel: 'Margin Top'
+    MarginTopEmptyString: 'Select Margin Top...'
+    MarginTopDescription: 'overrides the upper outer distance defined by default in the template'
 
   Derralf\ElementalStyling\StylingMarginBottom:
     TitleTagLabel: 'Title Tag'
