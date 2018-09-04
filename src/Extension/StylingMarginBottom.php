@@ -24,7 +24,7 @@ class StylingMarginBottom extends DataExtension
     public function updateFieldLabels(&$labels)
     {
         parent::updateFieldLabels($labels);
-        $labels['MarginBottom'] = _t(__CLASS__.'.MarginBottomLabel', 'Title Tag');
+        $labels['MarginBottom'] = _t(__CLASS__.'.MarginBottomLabel', 'Margin Bottom');
     }
 
 
