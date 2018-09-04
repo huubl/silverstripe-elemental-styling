@@ -20,6 +20,7 @@
 #    mb-3: 'Medium'
 #    mb-4: 'Large'
 #    mb-5: 'XL'
+#  # StylingMarginTop config
 #  margin_top_variants:
 #    mt-0: '0 (none)'
 #    mt-1: 'XS'
