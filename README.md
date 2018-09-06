@@ -14,7 +14,7 @@ Adds some Styling options to Elemental Blocks.
 - Install a module via Composer
   
   ```
-  composer require derralf/silverstripe-styling
+  composer require derralf/elemental-styling
   ```
 
 - Apply a desired extension on Block class (ie. ElementContent that ships with Core module or BaseElement to apply to all child elements) **mysite/_config/elements.yml**
