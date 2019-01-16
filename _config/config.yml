@@ -1,4 +1,6 @@
 #DNADesign\Elemental\Models\BaseElement:
+#  disable in line editing
+#  inline_editable: false
 #  # use included holder template ElementHolderStyled.ss
 #  controller_template: 'ElementHolderStyled'
 #  # StyledTitle config
@@ -28,3 +30,11 @@
 #    mt-3: 'Medium'
 #    mt-4: 'Large'
 #    mt-5: 'XL'
+# # StylingMarginTop config
+# margin_top_variants:
+#   mt-0: '0 (none)'
+#   mt-1: 'XS'
+#   mt-2: 'Small'
+#   mt-3: 'Medium'
+#   mt-4: 'Large'
+#   mt-5: 'XL'
