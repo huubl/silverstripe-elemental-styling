@@ -5,9 +5,10 @@ Adds some Styling options to Elemental Blocks.
 
 ## Requirements
 
-* SilverStripe ^4.2
-* dnadesign/silverstripe-elemental ^3.0
+* SilverStripe CMS ^4.3
+* dnadesign/silverstripe-elemental ^4.0
 
+For a SilverStripe 4.2 and Elemental 3.x compatible version of this module, please see the [1.x release line](https://github.com/derralf/silverstripe-elemental-styling/tree/1.0#readme).
 
 ## Installation
 
@@ -25,6 +26,7 @@ Adds some Styling options to Elemental Blocks.
       - Derralf\ElementalStyling\ElementEditlink
       - Derralf\ElementalStyling\StyledTitle
       - Derralf\ElementalStyling\StylingMarginBottom
+      - Derralf\ElementalStyling\StylingMarginTop
       - Derralf\ElementalStyling\StylingCustomInlineStyles
 
   ```
@@ -40,6 +42,8 @@ A basic/default config. Add this to your **mysite/\_config/elements.yml**
 Name: elementalstyling
 ---
 DNADesign\Elemental\Models\BaseElement:
+  #  disable in line editing
+  inline_editable: false
   # use included holder template ElementHolderStyled.ss
   controller_template: 'ElementHolderStyled'
   # StyledTitle config
@@ -61,6 +65,14 @@ DNADesign\Elemental\Models\BaseElement:
     mb-3: 'Medium'
     mb-4: 'Large'
     mb-5: 'XL'
+  # StylingMarginTop config
+  margin_top_variants:
+    mt-0: '0 (none)'
+    mt-1: 'XS'
+    mt-2: 'Small'
+    mt-3: 'Medium'
+    mt-4: 'Large'
+    mt-5: 'XL'
 ```
 
 Override title tag variants or title alignment classes for child elements:
