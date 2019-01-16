@@ -32,7 +32,7 @@ class StyledTitle extends DataExtension
         if (is_array($title_alignments) && !empty($title_alignments)) {
             $TitleAlignment = new DropdownField('TitleAlignment', $this->owner->fieldLabel('TitleAlignment'), $title_alignments);
             $TitleAlignment->setEmptyString(_t(__CLASS__.'.TitleAlignmentEmptyString', 'default'));
-            $fields->insertAfter('TitleAndDisplayed', $TitleAlignment);
+            $fields->insertAfter('Title', $TitleAlignment);
         } else {
             $fields->removeByName('TitleAlignment');
         }
@@ -44,7 +44,7 @@ class StyledTitle extends DataExtension
             $TitleTag = new DropdownField('TitleTag', $this->owner->fieldLabel('TitleTag'), $title_tags);
             $TitleTag->setDescription(sprintf(_t(__CLASS__.'.TitleTagDescription','default: %s'), $this->owner->getTitleTagDefault()));
             $TitleTag->setEmptyString('default');
-            $fields->insertAfter('TitleAndDisplayed', $TitleTag);
+            $fields->insertAfter('Title', $TitleTag);
         } else {
             $fields->removeByName('TitleTag');
         }
