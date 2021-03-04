@@ -14,7 +14,7 @@ en:
     MarginTopEmptyString: 'Select Margin Top...'
     MarginTopDescription: 'overrides the upper outer distance defined by default in the template'
 
-  Derralf\ElementalStyling\StylingMarginBottom:
+  Derralf\ElementalStyling\StyledTitle:
     TitleTagLabel: 'Title Tag'
     TitleTagEmptyString: 'default'
     TitleTagDescription: 'default: %s'
