@@ -14,7 +14,7 @@ de:
     MarginTopEmptyString: 'Abstand oben wählen...'
     MarginTopDescription: 'überschreibt den im Template standardmäßig festgelegten oberen Außenabstand'
 
-  Derralf\ElementalStyling\StylingMarginBottom:
+  Derralf\ElementalStyling\StyledTitle:
     TitleTagLabel: 'TitleTag'
     TitleTagEmptyString: 'standard'
     TitleTagDescription: 'standard: %s'
